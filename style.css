@@ -11,6 +11,13 @@ header {
   border-bottom: 1px solid #ddd;
 }
 
+.subtitle {
+  font-weight: 400;
+  font-size: 1.4em;
+  margin-top: 10px;
+  color: #555;
+}
+
 nav a {
   margin-right: 20px;
   text-decoration: none;
