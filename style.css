@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0 12%;
+  line-height: 1.6;
+  color: #222;
+}
+
+header {
+  padding: 40px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #003366;
+  font-weight: 500;
+}
+
+section {
+  margin: 80px 0;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #003366;
+}
+
+footer {
+  margin: 100px 0 40px 0;
+  font-size: 0.9em;
+  color: #666;
+}
