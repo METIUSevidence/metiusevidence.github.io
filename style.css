@@ -105,22 +105,28 @@ img {
 }
 
 .partners-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 60px;
   margin-top: 40px;
-  flex-wrap: wrap;
+  align-items: start;
 }
 
 .partner {
-  flex: 1;
-  min-width: 250px;
+  text-align: left;
+}
+
+.partner a {
+  display: inline-block;
 }
 
 .partner img {
   max-width: 220px;
   height: auto;
   margin-bottom: 20px;
-  display: block;
+  filter: grayscale(100%);
+  opacity: 0.85;
+  transition: filter 0.3s ease, opacity 0.3s ease, transform 0.2s ease;
 }
 
 .partner a:hover img {
