@@ -74,3 +74,13 @@ img {
   margin-bottom: 40px;
 }
 
+.partner {
+  margin-top: 40px;
+}
+
+.partner-logo {
+  max-width: 200px;
+  height: auto;
+  margin: 20px 0;
+  display: block;
+}
