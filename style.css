@@ -74,13 +74,22 @@ img {
   margin-bottom: 40px;
 }
 
-.partner {
+.partners-container {
+  display: flex;
+  gap: 60px;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 
-.partner-logo {
-  max-width: 200px;
+.partner {
+  flex: 1;
+  min-width: 250px;
+}
+
+.partner img {
+  max-width: 220px;
   height: auto;
-  margin: 20px 0;
+  margin-bottom: 20px;
   display: block;
 }
+
