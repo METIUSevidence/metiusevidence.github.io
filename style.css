@@ -108,6 +108,12 @@ img {
   transform: scale(1.05);
 }
 
+.consortium-grid a {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  background: #fff;
+}
+
 .partners-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
