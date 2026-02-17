@@ -74,6 +74,36 @@ img {
   margin-bottom: 40px;
 }
 
+.consortium-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.consortium-grid a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.consortium-grid img {
+  max-width: 160px;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: filter 0.3s ease, opacity 0.3s ease, transform 0.2s ease;
+}
+
+.consortium-grid a:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.05);
+}
+
 .partners-container {
   display: flex;
   gap: 60px;
@@ -93,3 +123,8 @@ img {
   display: block;
 }
 
+.partner a:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.05);
+}
